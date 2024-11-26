@@ -1,4 +1,6 @@
-// TypeScript Inference and Explicit Type Annotation
+/* This code snippet demonstrates the concepts of TypeScript inference and explicit type annotation. */
+
+// TypeScript Inference
 let userName = "Akash"; //Automatically set type as string
 
 userName = 34; // This line throw error because typescript uses strict type definition
