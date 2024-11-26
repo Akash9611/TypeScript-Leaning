@@ -29,7 +29,7 @@ Define type explicitly when creating variable.
 
 ## How to invoke the TypeScript Compiler
 
-run the following command to run the typeScript code of specific file
+run the following command to run the typeScript code of specific file. After running this command it will generate the JavaScript code by converting the TypeScript file code and also throw error in terminal if there is any error in TypeScript file code.
 
 > npx tsc filename.ts
 
