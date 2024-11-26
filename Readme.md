@@ -48,3 +48,35 @@ This line of code is declaring a variable `userID` with a type union of `string 
 means that the `userID` variable can hold values of either type `string` or type `number`.
 Initially, it is assigned a string value `"abcd1"`, and later it is reassigned to a number value
 `123`, which is allowed due to the type union definition.
+
+## Array Type and Object Type Definition
+/* This code snippet demonstrates the usage of Array Types and Object Types in TypeScript. */
+
+Array Definition method 1
+> let sports: Array<string>;  
+sports = ["Cricket", "Football", "Tennis"];
+
+Array Definition method 2
+> let id: string[];  
+id = ["akash1", "akash2", "user3"];  
+// we can also define other types of arrays like - number[], and boolean[]  
+
+Array Of Object Type Definition
+> let userInfo: { name: string; age: number }[];  
+userInfo = [  
+  { name: "akash", age: 24 },  
+  { name: "shivay", age: 25 },  
+  { name: "ram", age: 1000 },  
+];  
+
+Object Type Definition
+> let user: {  
+  name: string;  
+  age: number;  
+  isAuth: boolean;  
+};    
+user = {  
+  name: "Akash",  
+  age: 24,  
+  isAuth: true,  
+};  
